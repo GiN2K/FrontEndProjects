@@ -82,8 +82,8 @@ body {
 }
 
 .navbar-element {
-    font-size: 17px;
-    padding: 1px;
+    font-size: 14px;
+    padding: 3px;
 }
 
 .navbar-element a {
@@ -177,7 +177,7 @@ background-image:url(img/abou-bg.jpg) ;    float: right;
 
 #fourththsection {
     margin-top: 70px;
-    height: 600px;
+    margin-bottom: 66px;
 }
 .fourth-pic {
     margin:0 auto;
@@ -205,3 +205,73 @@ font-weight: 500;}
     font-size: 30px;
     text-align: center;
 }
+
+#sixthsection {
+
+    margin-top: 70px;
+    margin-bottom: 66px;
+}
+.memberPhoto img {    
+    border-radius: 100%;
+    width: 90%;
+    max-width: 300px;
+    height: 300px;
+margin:0 auto;
+border: 2px solid #7952b3;
+margin-bottom: 17px;
+}
+#team {
+    text-align: center;
+}
+.memberName {
+    text-transform: uppercase;
+
+}
+#team-inner {
+    margin-top: 50px;
+}
+.memberName h4 {
+    font-size: 27px;
+    font-weight: 700;
+    margin-bottom: 9px;
+}
+.memberJob h5 {
+    margin-bottom: 12px;
+    font-size: 18px;
+}
+
+.memberContact i {
+    padding: 0px 5px;
+}
+
+.fa-facebook-f {
+    color: #000;
+  }
+  .fa-twitter{
+    color: #000;
+  }
+ .fa-linkedin-in {
+    color: #000;
+  }
+
+  .fa-facebook-f:hover {
+    color: #7952b3;
+  }
+  .fa-twitter:hover{
+    color: #7952b3;
+  }
+ .fa-linkedin-in:hover {
+    color: #7952b3;
+  }
+
+  
+  .fa-facebook-f:focus {
+    color: #7952b3;
+  }
+  .fa-twitter:focus{
+    color: #7952b3;
+  }
+ .fa-linkedin-in:focus {
+    color: #7952b3;
+  }
+
