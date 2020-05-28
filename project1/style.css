@@ -356,7 +356,7 @@ body {
     display: flex;
     width: 100%;
     justify-content: center;
-    padding-bottom: 110px;
+    padding-bottom: 15px;
 }
 
 .reviewerName h4 {
@@ -516,4 +516,11 @@ fieldset {
 
 #contactInfo {
     color: #FaFaFa;
+}
+#reviews .owl-dots{
+    padding-bottom: 110px;
+}
+
+#reviews .owl-nav{
+    color: #fafafa;
 }

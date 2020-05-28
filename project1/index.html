@@ -10,11 +10,11 @@
     <script src="https://kit.fontawesome.com/34f1df1633.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <!--link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/-->
-    
-    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-// Add the new slick-theme.css if you want the default styling
-<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        rel="stylesheet">
+
     <title>Document</title>
 </head>
 
@@ -242,8 +242,8 @@
                 <div class="heading-underline middle"></div>
             </div>
 
-            <div id="team-inner" class="row yaw">
-                <div class="col col-12 col-xl-4 col-lg-4 col-md-6 col-sm-12">
+            <div id="team-inner" class="owl-carousel owl-theme">
+                <div class="">
                     <div class="memberPhoto">
                         <img src="img/person1.jpg" alt="person1">
                     </div>
@@ -259,7 +259,7 @@
                         <a href="#"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
-                <div class="col col-12 col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                <div class="">
                     <div class="memberPhoto">
                         <img src="img/person2.jpg" alt="person1">
                     </div>
@@ -275,7 +275,7 @@
                         <a href="#"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
-                <div class="col col-12 col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                <div class="">
                     <div class="memberPhoto">
                         <img src="img/person3.jpg" alt="person1">
                     </div>
@@ -291,7 +291,7 @@
                         <a href="#"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
-                <div class="col col-12 col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                <div class="">
                     <div class="memberPhoto">
                         <img src="img/person4.jpg" alt="person1">
                     </div>
@@ -313,8 +313,9 @@
     </section>
 
     <section id="reviews">
-        <div class="container-xl">
+        <div class="container-xl owl-carousel owl-theme">
 
+            <div class="reviewBlock">
             <div class="reviewText">
                 <p>“Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui excepturi cumque sit deleniti esse
                     consequatur! Quibusdam labore eaque nam nihil, hic voluptatem! Veritatis sunt ratione nulla, aliquid
@@ -334,9 +335,56 @@
                     </div>
                 </div>
             </div>
-
+       
         </div>
+        <div class="reviewBlock">
+            <div class="reviewText">
+                <p>“Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui excepturi cumque sit deleniti esse
+                    consequatur! Quibusdam labore eaque nam nihil, hic voluptatem! Veritatis sunt ratione nulla, aliquid
+                    nihil ad unde?”</p>
+            </div>
+
+            <div class="reviewer">
+                <div class="reviewerPic">
+                    <img src="img/person3.jpg" alt="reviewer1">
+                </div>
+                <div id="reviewer">
+                    <div class="reviewerName">
+                        <h4>Leo Smith</h4>
+                    </div>
+                    <div class="reviewerJob">
+                        <h5>CEO of Netflix</h5>
+                    </div>
+                </div>
+            </div>
+       
+        </div>
+        <div class="reviewBlock">
+            <div class="reviewText">
+                <p>“Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui excepturi cumque sit deleniti esse
+                    consequatur! Quibusdam labore eaque nam nihil, hic voluptatem! Veritatis sunt ratione nulla, aliquid
+                    nihil ad unde?”</p>
+            </div>
+
+            <div class="reviewer">
+                <div class="reviewerPic">
+                    <img src="img/person2.jpg" alt="reviewer1">
+                </div>
+                <div id="reviewer">
+                    <div class="reviewerName">
+                        <h4>Mike Smith</h4>
+                    </div>
+                    <div class="reviewerJob">
+                        <h5>CEO of Amazon</h5>
+                    </div>
+                </div>
+            </div>
+       
+        </div>
+    </div>
     </section>
+
+
     <section id="our-clients">
         <div class="container-xl">
             <div class="title middle" data-aos="fade-down" data-aos-duration="1000">
@@ -345,109 +393,125 @@
 
             </div>
             <div class="logos row">
-                
-                    <div class="clientLogo col col-6 col-xl-3 col-lg-3 col-md-4 col-sm-6">
-                        <img src="img/google.png" alt="google">
-                    </div>
-                
-                    <div class="clientLogo col col-6 col-xl-3 col-lg-3 col-md-4 col-sm-6">
-                        <img src="img/facebook.png" alt="facebook">
-                    </div><div class="clientLogo col col-6 col-xl-3 col-lg-3 col-md-4 col-sm-6">
-                        <img src="img/ubisoft.png" alt="ubisoft">
-                    </div><div class="clientLogo col col-6 col-xl-3 col-lg-3 col-md-4 col-sm-6">
-                        <img src="img/fedex.png" alt="fedex">
-                    </div>
+
+                <div class="clientLogo col col-6 col-xl-3 col-lg-3 col-md-4 col-sm-6">
+                    <img src="img/google.png" alt="google">
+                </div>
+
+                <div class="clientLogo col col-6 col-xl-3 col-lg-3 col-md-4 col-sm-6">
+                    <img src="img/facebook.png" alt="facebook">
+                </div>
+                <div class="clientLogo col col-6 col-xl-3 col-lg-3 col-md-4 col-sm-6">
+                    <img src="img/ubisoft.png" alt="ubisoft">
+                </div>
+                <div class="clientLogo col col-6 col-xl-3 col-lg-3 col-md-4 col-sm-6">
+                    <img src="img/fedex.png" alt="fedex">
+                </div>
             </div>
     </section>
     <section id="footer">
         <div class="container-xl">
             <div class="upperFooter row">
-<div class="col col-12 col-xl-6 col-lg-6 col-md-12 col-sm-12 footerLeft">
-    <div class="footertitle left" id="title" data-aos="fade-down" data-aos-duration="1000">
-        <h3>company</h3>
-        <div class="footer-heading-underline left"></div>
-    </div>
-    <div id="companyDescription">
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam ipsum error alias animi excepturi. Sed sit assumenda temporibus sunt unde consequuntur, perferendis quae quisquam rerum rem explicabo ab, reiciendis distinctio.</p>
-</div>
-<br>
-     <div id="contactInfo">
-        
-            <strong>ADDRESS:</strong><p>
-                4077 Platinum Drive
-                <br>
-                Harrison City PA 15636
-                <br>
-                United States
-            </p>
-            <br>
-            <strong>PHONE:</strong><span> (1) 1234-56789 </span> <br>
-            <strong>EMAIL:</strong><span>  email@gmail.com  </span> <br>
-        </p>
-        
-     </div>
-</div>     
-<div class="col col-12 col-xl-6 col-lg-6 col-md-12 col-sm-12 footerRight">
-    <div class="footertitle left" id="title" data-aos="fade-down" data-aos-duration="1000">
-        <h3>Contact US</h3>
-        <div class="footer-heading-underline left"></div>
-    </div>
+                <div class="col col-12 col-xl-6 col-lg-6 col-md-12 col-sm-12 footerLeft">
+                    <div class="footertitle left" id="title" data-aos="fade-down" data-aos-duration="1000">
+                        <h3>company</h3>
+                        <div class="footer-heading-underline left"></div>
+                    </div>
+                    <div data-aos="fade-right" data-aos-duration="1500">
+                        <div id="companyDescription">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam ipsum error alias animi
+                                excepturi. Sed sit assumenda temporibus sunt unde consequuntur, perferendis quae
+                                quisquam rerum rem explicabo ab, reiciendis distinctio.</p>
+                        </div>
+                        <br>
+                        <div id="contactInfo">
+
+                            <strong>ADDRESS:</strong>
+                            <p>
+                                4077 Platinum Drive
+                                <br>
+                                Harrison City PA 15636
+                                <br>
+                                United States
+                            </p>
+                            <br>
+                            <strong>PHONE:</strong><span> (1) 1234-56789 </span> <br>
+                            <strong>EMAIL:</strong><span> email@gmail.com </span> <br>
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-12 col-xl-6 col-lg-6 col-md-12 col-sm-12 footerRight">
+                    <div class="footertitle left" id="title" data-aos="fade-down" data-aos-duration="1000">
+                        <h3>Contact US</h3>
+                        <div class="footer-heading-underline left"></div>
+                    </div>
 
 
-    <form id="contact" action="" method="post">
-        <fieldset>
-          <input placeholder="Your Name" type="text" tabindex="1" required autofocus>
-        </fieldset>
-        <fieldset>
-          <input placeholder="Your Email Address" type="email" tabindex="2" required>
-        </fieldset>
-        <fieldset>
-          <textarea placeholder="Type Your Message Here...." tabindex="3" required></textarea>
-        </fieldset>
-        <fieldset>
-          <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
-        </fieldset>
-      </form>
+                    <form id="contact" data-aos="fade-left" data-aos-duration="1500" action="" method="post">
+                        <fieldset>
+                            <input placeholder="Your Name" type="text" tabindex="1" required autofocus>
+                        </fieldset>
+                        <fieldset>
+                            <input placeholder="Your Email Address" type="email" tabindex="2" required>
+                        </fieldset>
+                        <fieldset>
+                            <textarea placeholder="Type Your Message Here...." tabindex="3" required></textarea>
+                        </fieldset>
+                        <fieldset>
+                            <button name="submit" type="submit" id="contact-submit"
+                                data-submit="...Sending">Submit</button>
+                        </fieldset>
+                    </form>
 
 
 
-</div>   
-</div>
+                </div>
+            </div>
 
         </div>
     </section>
-<section id="lowerFooter">
-    <div class="container-xl lowerFooter">
-        <p>Copyright ©2020 All rights reserved - Designed By Amine AIT-ALI</p>
-        <div class="socialMedia">
-            <i class="fa fa-facebook" aria-hidden="true"></i>
-            <i class="fa fa-instagram" aria-hidden="true"></i>
-            <i class="fa fa-twitter" aria-hidden="true"></i>
-            <i class="fa fa-youtube" aria-hidden="true"></i>
-            <i class="fa fa-linkedin" aria-hidden="true"></i>
+    <section id="lowerFooter">
+        
+        <div class="container-xl">
+            <div class="lowerFooter">
+            <p>Copyright ©2020 All rights reserved - Designed By Amine AIT-ALI</p>
+            <div class="socialMedia">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+                <i class="fa fa-youtube" aria-hidden="true"></i>
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </div>
         </div>
-    </div>
-</section>
+        </div>
+    </section>
+
 
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
-
-<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-<script type="text/javascript">
-    $(document).ready(function(){
-        $('.yaw').slick({
-            dots:true,
-            infinite: true,
-  slidesToShow: 3,
-  slidesToScroll: 3
-});
-});
-  </script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="script.js"></script>
+<script>
+$('#team-inner').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:3
+        }
+    }
+})
+</script>
 
 </body>
 
