@@ -236,7 +236,7 @@ body {
     margin: 0 auto;
     border: 2px solid #F6D8AE;
     margin-bottom: 17px;
-       /* filter: grayscale(100%); */
+    /* filter: grayscale(100%); */
 
 }
 
@@ -266,6 +266,7 @@ body {
 
 .memberContact i {
     padding: 0px 5px;
+    margin-bottom: 28px;
 }
 
 .fa-facebook-f {
@@ -365,18 +366,19 @@ body {
 .reviewerJob h5 {
     font-size: 22px;
 }
+
 #our-clients {
     margin-top: 70px;
 }
 
 .clientLogo img {
-height: 50px;
+    height: 50px;
 }
 
 .logos {
     text-align: center;
     margin-top: 50px;
-   /* filter: grayscale(100%); */
+    /* filter: grayscale(100%); */
 }
 
 #footer {
@@ -385,24 +387,27 @@ height: 50px;
 }
 
 .lowerFooter p {
-float: left;
-color: #fafafa;
-margin-top: 10px;
-font-size: 17px;
+    float: left;
+    color: #fafafa;
+    margin-top: 10px;
+    font-size: 17px;
 }
+
 #lowerFooter {
     background-color: #2E4057;
     height: 45px;
-    }
+}
 
 .socialMedia {
     float: right;
     margin-top: 9px;
 }
+
 .socialMedia i {
     color: #fafafa;
     font-size: 17px;
-padding: 5px;}
+    padding: 5px;
+}
 
 
 #contact {
@@ -411,75 +416,88 @@ padding: 5px;}
 
 
 fieldset {
-	border: medium none !important;
-	margin: 0 0 10px;
-	min-width: 100%;
-	padding: 0;
-	width: 100%;
+    border: medium none !important;
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
 }
 
-#contact input[type="text"], #contact input[type="email"],  #contact textarea {
-	width:100%;
-	border:1px solid #F6D8AE;
-	background:#FaFaFa;
-	margin:0 0 5px;
-	padding:10px;
+#contact input[type="text"],
+#contact input[type="email"],
+#contact textarea {
+    width: 100%;
+    border: 1px solid #F6D8AE;
+    background: #FaFaFa;
+    margin: 0 0 5px;
+    padding: 10px;
 }
 
-#contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact textarea:hover {
-	-webkit-transition:border-color 0.3s ease-in-out;
-	-moz-transition:border-color 0.3s ease-in-out;
-	transition:border-color 0.3s ease-in-out;
-	border:1px solid #F6D8AE;
+#contact input[type="text"]:hover,
+#contact input[type="email"]:hover,
+#contact textarea:hover {
+    -webkit-transition: border-color 0.3s ease-in-out;
+    -moz-transition: border-color 0.3s ease-in-out;
+    transition: border-color 0.3s ease-in-out;
+    border: 1px solid #F6D8AE;
 }
 
 #contact textarea {
-	height:190px;
-	max-width:100%;
-    resize: vertical;overflow: auto;
+    height: 190px;
+    max-width: 100%;
+    resize: vertical;
+    overflow: auto;
 }
 
 #contact button[type="submit"] {
-	cursor:pointer;
-	width:100%;
-	border:none;
-	background: #F6D8AE;;
-	color:#FaFaFa;
-	margin:0 0 5px;
-	padding:10px;
-	font-size:15px;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    background: #F6D8AE;
+    ;
+    color: #FaFaFa;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px;
 }
 
 #contact button[type="submit"]:hover {
-    background:#F6D8AE
-    ;
-	-webkit-transition:background 0.3s ease-in-out;
-	-moz-transition:background 0.3s ease-in-out;
-	transition:background-color 0.3s ease-in-out;
+    background: #F6D8AE;
+    -webkit-transition: background 0.3s ease-in-out;
+    -moz-transition: background 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
 }
 
-#contact button[type="submit"]:active { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
-
-#contact input:focus, #contact textarea:focus {
-	outline:0;
-	border:1px solid #F6D8AE;
+#contact button[type="submit"]:active {
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
 }
+
+#contact input:focus,
+#contact textarea:focus {
+    outline: 0;
+    border: 1px solid #F6D8AE;
+}
+
 ::-webkit-input-placeholder {
- color:#F6D8AE;
+    color: #F6D8AE;
 }
+
 :-moz-placeholder {
- color:#F6D8AE;
+    color: #F6D8AE;
 }
+
 ::-moz-placeholder {
- color:#F6D8AE;
+    color: #F6D8AE;
 }
+
 :-ms-input-placeholder {
- color:#F6D8AE;
+    color: #F6D8AE;
 }
 
 #companyDescription p {
-color: #fafafa;
-font-size: 18px;}
+    color: #fafafa;
+    font-size: 18px;
+}
 
 .footertitle {
     margin-top: 80px;
@@ -495,6 +513,7 @@ font-size: 18px;}
     background-color: #F6D8AE;
     margin-bottom: 20px;
 }
+
 #contactInfo {
     color: #FaFaFa;
 }
