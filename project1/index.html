@@ -25,41 +25,48 @@
             <div id="home-top">
 
                 <div class="container-xl">
-                    
-                    <nav class="navbar navbar-expand-lg navbar-expand-md navbar-light">
+
+                    <nav class="navbar navbar-expand-lg navbar-light">
                         <div id="logo">
                             <a href="#" class="navbar-brand"><img src="img/logo.png" alt="logo"></a>
                         </div>
-                        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>  <div class="collapse navbar-collapse" id="navbarNav">
-                            <ul class="navbar-nav ml-auto">
-                              <li class="nav-item active">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon">
+                            <i class="fas fa-bars" style="color:#fafafa; font-size:28px;"></i>
+                          </span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                          <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active">
                                 <a class="nav-link navbar-element" href="#">HOME</a>
-                              </li>
-                              <li class="nav-item">
+                            </li>
+                            <li class="nav-item">
                                 <a class="nav-link navbar-element" href="#">SERVICES</a>
-                              </li>
-                              <li class="nav-item">
+                            </li>
+                            <li class="nav-item">
                                 <a class="nav-link navbar-element" href="#">ABOUT US</a>
-                              </li>
-                              <li class="nav-item">
+                            </li>
+                            <li class="nav-item">
                                 <a class="nav-link navbar-element" href="#">HOW IT WORKS</a>
-                              </li>
-                              <li class="nav-item">
+                            </li>
+                            <li class="nav-item">
                                 <a class="nav-link navbar-element" href="#">OUR TEAM</a>
-                              </li>
-                              <li class="nav-item">
+                            </li>
+                            <li class="nav-item">
                                 <a class="nav-link navbar-element" href="#">REVIEWS</a>
-                              </li>
-                            </ul>
-                          </div>
-                
-                    </nav>
+                            </li>
+                          </ul>
+                        </div>
+                      </nav>
 
+
+                </div>
+
+                
             </div>
-            <div id="home-mid">
-                <div class="container-xl">
+            <div class="container-xl" style="height: 100%;">
+                <div id="home-mid">
+                    <div id="home-mid-inner">
                     <div id="textbox" data-aos="fade-right" data-aos-duration="1000">
                         <h1> Welcome to Web Template Number 1</h1>
                         <h3>
@@ -71,9 +78,10 @@
                         <button type="button" class="btn action-button btn-lg">Click Here</button>
                     </div>
                 </div>
-
+            </div>
             </div>
         </div>
+
     </section>
 
     <section id="services">
@@ -173,16 +181,20 @@
         <div class="container-xl " id="about-section">
 
             <div id="text-section">
-                <div class="title left" data-aos="fade-down" data-aos-duration="1000">
-                    <h3>About us</h3>
-                    <div class="heading-underline left"></div>
-                </div>
-                <div id="aboutUsDescription" data-aos="fade-up" data-aos-duration="1300">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem iure deleniti maxime
-                        corrupti praesentium mollitia voluptates nemo adipisci optio, autem impedit atque sed non et
-                        molestias, iste voluptas fugit odio! Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Iste quis tempore illo ea, officia, culpa nobis amet vel, ad deleniti excepturi incidunt vitae.
-                        Beatae voluptas voluptatum inventore incidunt, fugit dignissimos.</p>
+                <div id="text-section-inner">
+                    <div class="about-title left" data-aos="fade-down" data-aos-duration="1000">
+                        <h3>About us</h3>
+                        <div class="heading-underline left"></div>
+                    </div>
+                    <div id="aboutUsDescription" data-aos="fade-up" data-aos-duration="1300">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem iure deleniti maxime
+                            corrupti praesentium mollitia voluptates nemo adipisci optio, autem impedit atque sed non et
+                            molestias, iste voluptas fugit odio! Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit.
+                            Iste quis tempore illo ea, officia, culpa nobis amet vel, ad deleniti excepturi incidunt
+                            vitae.
+                            Beatae voluptas voluptatum inventore incidunt, fugit dignissimos.</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -332,72 +344,75 @@
         <div class="container-xl owl-carousel owl-theme" data-aos="zoom-in" data-aos-duration="2000">
 
             <div class="reviewBlock" data-aos="zoom-in" data-aos-duration="2000">
-            <div class="reviewText">
-                <p>“Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui excepturi cumque sit deleniti esse
-                    consequatur! Quibusdam labore eaque nam nihil, hic voluptatem! Veritatis sunt ratione nulla, aliquid
-                    nihil ad unde?”</p>
-            </div>
+                <div class="reviewText">
+                    <p>“Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui excepturi cumque sit deleniti esse
+                        consequatur! Quibusdam labore eaque nam nihil, hic voluptatem! Veritatis sunt ratione nulla,
+                        aliquid
+                        nihil ad unde?”</p>
+                </div>
 
-            <div class="reviewer">
-                <div class="reviewerPic">
-                    <img src="img/person1.jpg" alt="reviewer1">
-                </div>
-                <div id="reviewer">
-                    <div class="reviewerName">
-                        <h4>John Smith</h4>
+                <div class="reviewer">
+                    <div class="reviewerPic">
+                        <img src="img/person1.jpg" alt="reviewer1">
                     </div>
-                    <div class="reviewerJob">
-                        <h5>CEO of Github</h5>
+                    <div id="reviewer">
+                        <div class="reviewerName">
+                            <h4>John Smith</h4>
+                        </div>
+                        <div class="reviewerJob">
+                            <h5>CEO of Github</h5>
+                        </div>
                     </div>
                 </div>
-            </div>
-       
-        </div>
-        <div class="reviewBlock" data-aos="zoom-in" data-aos-duration="2000">
-            <div class="reviewText">
-                <p>“Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui excepturi cumque sit deleniti esse
-                    consequatur! Quibusdam labore eaque nam nihil, hic voluptatem! Veritatis sunt ratione nulla, aliquid
-                    nihil ad unde?”</p>
-            </div>
 
-            <div class="reviewer">
-                <div class="reviewerPic">
-                    <img src="img/person3.jpg" alt="reviewer1">
-                </div>
-                <div id="reviewer">
-                    <div class="reviewerName">
-                        <h4>Leo Smith</h4>
-                    </div>
-                    <div class="reviewerJob">
-                        <h5>CEO of Netflix</h5>
-                    </div>
-                </div>
             </div>
-       
-        </div>
-        <div class="reviewBlock" data-aos="zoom-in" data-aos-duration="2000">
-            <div class="reviewText">
-                <p>“Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui excepturi cumque sit deleniti esse
-                    consequatur! Quibusdam labore eaque nam nihil, hic voluptatem! Veritatis sunt ratione nulla, aliquid
-                    nihil ad unde?”</p>
-            </div>
+            <div class="reviewBlock" data-aos="zoom-in" data-aos-duration="2000">
+                <div class="reviewText">
+                    <p>“Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui excepturi cumque sit deleniti esse
+                        consequatur! Quibusdam labore eaque nam nihil, hic voluptatem! Veritatis sunt ratione nulla,
+                        aliquid
+                        nihil ad unde?”</p>
+                </div>
 
-            <div class="reviewer">
-                <div class="reviewerPic">
-                    <img src="img/person2.jpg" alt="reviewer1">
-                </div>
-                <div id="reviewer">
-                    <div class="reviewerName">
-                        <h4>Mike Smith</h4>
+                <div class="reviewer">
+                    <div class="reviewerPic">
+                        <img src="img/person3.jpg" alt="reviewer1">
                     </div>
-                    <div class="reviewerJob">
-                        <h5>CEO of Amazon</h5>
+                    <div id="reviewer">
+                        <div class="reviewerName">
+                            <h4>Leo Smith</h4>
+                        </div>
+                        <div class="reviewerJob">
+                            <h5>CEO of Netflix</h5>
+                        </div>
                     </div>
                 </div>
+
             </div>
-       
+            <div class="reviewBlock" data-aos="zoom-in" data-aos-duration="2000">
+                <div class="reviewText">
+                    <p>“Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui excepturi cumque sit deleniti esse
+                        consequatur! Quibusdam labore eaque nam nihil, hic voluptatem! Veritatis sunt ratione nulla,
+                        aliquid
+                        nihil ad unde?”</p>
+                </div>
+
+                <div class="reviewer">
+                    <div class="reviewerPic">
+                        <img src="img/person2.jpg" alt="reviewer1">
+                    </div>
+                    <div id="reviewer">
+                        <div class="reviewerName">
+                            <h4>Mike Smith</h4>
+                        </div>
+                        <div class="reviewerJob">
+                            <h5>CEO of Amazon</h5>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </div>
-    </div>
 
     </section>
 
@@ -409,14 +424,14 @@
                 <div class="heading-underline middle"></div>
 
             </div>
-            <div class="logos row"  data-aos="zoom-in" data-aos-duration="2000">
+            <div class="logos row" data-aos="zoom-in" data-aos-duration="2000">
 
                 <div class="clientLogo col col-6 col-xl-3 col-lg-3 col-md-6 col-sm-6">
                     <a href="#"><img src="img/google.png" alt="google"></a>
                 </div>
 
                 <div class="clientLogo col col-6 col-xl-3 col-lg-3 col-md-6 col-sm-6">
-                   <a href="#"> <img src="img/facebook.png" alt="facebook"></a>
+                    <a href="#"> <img src="img/facebook.png" alt="facebook"></a>
                 </div>
                 <div class="clientLogo col col-6 col-xl-3 col-lg-3 col-md-6 col-sm-6">
                     <a href="#"><img src="img/ubisoft.png" alt="ubisoft"></a>
@@ -490,28 +505,28 @@
         </div>
     </section>
     <section id="lowerFooter">
-        
+
         <div class="container-xl">
             <div class="row">
-            <div class="lowerFooter col col-12 col-xl-8 col-lg-8 col-md-12 col-sm-12">
-            <p>Copyright ©2020 All rights reserved - Designed By Amine AIT-ALI</p>
-        </div>
-            <div class="socialMedia col col-12 col-xl-4 col-lg-4 col-md-12 col-sm-12">
-                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                <a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a>
-                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                <div class="lowerFooter col col-12 col-xl-8 col-lg-8 col-md-12 col-sm-12">
+                    <p>Copyright ©2020 All rights reserved - Designed By Amine AIT-ALI</p>
+                </div>
+                <div class="socialMedia col col-12 col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                </div>
+
             </div>
-        
-        </div>
         </div>
     </section>
 
 
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script src="script.js"></script>
 
