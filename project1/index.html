@@ -25,22 +25,38 @@
             <div id="home-top">
 
                 <div class="container-xl">
-                    <div id="logo">
-                        <a href="#"><img src="img/logo.png" alt="logo"></a>
-                    </div>
-                    <div id="navbar">
-                        <ul class="navbar navbar-expand-lg navbar-light">
-                            <li class="navbar-brand navbar-element"><a href="#">home</a></li>
-                            <li class="navbar-brand navbar-element"><a href="#">services</a></li>
-                            <li class="navbar-brand navbar-element"><a href="#">about us</a></li>
-                            <li class="navbar-brand navbar-element"><a href="#">how it works</a></li>
-                            <li class="navbar-brand navbar-element"><a href="#">our work</a></li>
-                            <li class="navbar-brand navbar-element"><a href="#">our team</a></li>
-                            <li class="navbar-brand navbar-element"><a href="#">reviews</a></li>
+                    
+                    <nav class="navbar navbar-expand-lg navbar-expand-md navbar-light">
+                        <div id="logo">
+                            <a href="#" class="navbar-brand"><img src="img/logo.png" alt="logo"></a>
+                        </div>
+                        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>  <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav ml-auto">
+                              <li class="nav-item active">
+                                <a class="nav-link navbar-element" href="#">HOME</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link navbar-element" href="#">SERVICES</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link navbar-element" href="#">ABOUT US</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link navbar-element" href="#">HOW IT WORKS</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link navbar-element" href="#">OUR TEAM</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link navbar-element" href="#">REVIEWS</a>
+                              </li>
+                            </ul>
+                          </div>
+                
+                    </nav>
 
-                        </ul>
-                    </div>
-                </div>
             </div>
             <div id="home-mid">
                 <div class="container-xl">
@@ -395,18 +411,18 @@
             </div>
             <div class="logos row"  data-aos="zoom-in" data-aos-duration="2000">
 
-                <div class="clientLogo col col-6 col-xl-3 col-lg-3 col-md-4 col-sm-6">
-                    <img src="img/google.png" alt="google">
+                <div class="clientLogo col col-6 col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                    <a href="#"><img src="img/google.png" alt="google"></a>
                 </div>
 
-                <div class="clientLogo col col-6 col-xl-3 col-lg-3 col-md-4 col-sm-6">
-                    <img src="img/facebook.png" alt="facebook">
+                <div class="clientLogo col col-6 col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                   <a href="#"> <img src="img/facebook.png" alt="facebook"></a>
                 </div>
-                <div class="clientLogo col col-6 col-xl-3 col-lg-3 col-md-4 col-sm-6">
-                    <img src="img/ubisoft.png" alt="ubisoft">
+                <div class="clientLogo col col-6 col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                    <a href="#"><img src="img/ubisoft.png" alt="ubisoft"></a>
                 </div>
-                <div class="clientLogo col col-6 col-xl-3 col-lg-3 col-md-4 col-sm-6">
-                    <img src="img/fedex.png" alt="fedex">
+                <div class="clientLogo col col-6 col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                    <a href="#"><img src="img/fedex.png" alt="fedex"></a>
                 </div>
             </div>
     </section>
@@ -452,7 +468,7 @@
 
                     <form id="contact" data-aos="fade-left" data-aos-duration="1500" action="" method="post">
                         <fieldset>
-                            <input placeholder="Your Name" type="text" tabindex="1" required autofocus>
+                            <input placeholder="Your Name" type="text" tabindex="1" required>
                         </fieldset>
                         <fieldset>
                             <input placeholder="Your Email Address" type="email" tabindex="2" required>
@@ -476,15 +492,18 @@
     <section id="lowerFooter">
         
         <div class="container-xl">
-            <div class="lowerFooter">
+            <div class="row">
+            <div class="lowerFooter col col-12 col-xl-8 col-lg-8 col-md-12 col-sm-12">
             <p>Copyright ©2020 All rights reserved - Designed By Amine AIT-ALI</p>
-            <div class="socialMedia">
-                <i class="fa fa-facebook" aria-hidden="true"></i>
-                <i class="fa fa-instagram" aria-hidden="true"></i>
-                <i class="fa fa-twitter" aria-hidden="true"></i>
-                <i class="fa fa-youtube" aria-hidden="true"></i>
-                <i class="fa fa-linkedin" aria-hidden="true"></i>
+        </div>
+            <div class="socialMedia col col-12 col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
             </div>
+        
         </div>
         </div>
     </section>
@@ -495,24 +514,6 @@
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script src="script.js"></script>
-<script>
-$('#team-inner').owlCarousel({
-    loop:true,
-    margin:10,
-    nav:true,
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:2
-        },
-        1000:{
-            items:3
-        }
-    }
-})
-</script>
 
 </body>
 
