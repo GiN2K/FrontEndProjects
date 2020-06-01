@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/34f1df1633.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <title>Countdown Landing Page</title>
+</head>
+
+<body>
+
+<div id="particles-js">
+</div>
+
+
+<section id="landing-page">
+    <div class="container">
+        <div class="row">
+        <div class="landing-page-inner col col-10 col-xl-10 col-lg-10 col-md-10 col-sm-10">
+            <div id="logo">
+                <a href="#"><img src="img/logo.png" alt="logo"></a>
+            </div>
+            <div id="text-box">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt dolorem libero ea praesentium
+                    eligendi totam necessitatibus minima provident exercitationem nostrum rerum tempore dolor optio
+                    blanditiis, excepturi, doloribus ratione quos fugiat?
+                </p>
+            </div>
+            <div id="comming-soon-box">
+                <p>COMMING SOON!!</p>
+            </div>
+
+            <div id="countdown">
+                <!-- Display the countdown timer in an element -->
+                <p id="demo"></p>
+
+                <script>
+                    // Set the date we're counting down to
+                    var countDownDate = new Date("Jan 5, 2021 15:37:25").getTime();
+
+                    // Update the count down every 1 second
+                    var x = setInterval(function () {
+
+                        // Get today's date and time
+                        var now = new Date().getTime();
+
+                        // Find the distance between now and the count down date
+                        var distance = countDownDate - now;
+
+                        // Time calculations for days, hours, minutes and seconds
+                        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                        // Display the result in the element with id="demo"
+                        document.getElementById("demo").innerHTML = days + "d " + hours + "h " + minutes +
+                            "m " + seconds + "s ";
+
+
+
+                        // If the count down is finished, write some text
+                        if (distance < 0) {
+                            clearInterval(x);
+                            document.getElementById("demo").innerHTML = "EXPIRED";
+                        }
+                    }, 1000);
+                </script>
+            </div>
+
+            <div id="newsletter">
+                <p>SUBSCRIBE TO OUR NEWSLETTER</p>
+                <form>
+                    <input type="email" id="email"/>
+                    <label for="email">email address</label>
+                    <button id="button">Submit</button>
+                  </form>
+            </div>
+            
+    </div>
+    
+</div>
+
+</div>
+
+    
+
+</section>
+
+<div id="social-media">
+    <span class="fa-stack fa-lg">
+        <a href="#">
+            <i class="fas fa-circle fa-stack-2x m-circle"></i>
+            <i class="fab fa-facebook fa-stack-1x"></i>
+        </a>
+    </span>
+    <span class="fa-stack fa-lg">
+        <a href="#">
+            <i class="fas fa-circle fa-stack-2x m-circle"></i>
+            <i class="fab fa-youtube fa-stack-1x" ></i>
+        </a>
+    </span>
+    <span class="fa-stack fa-lg">
+        <a href="#">
+            <i class="fas fa-circle fa-stack-2x m-circle"></i>
+            <i class="fab fa-instagram fa-stack-1x" ></i>
+        </a>
+    </span><span class="fa-stack fa-lg">
+        <a href="#">
+            <i class="fas fa-circle fa-stack-2x m-circle"></i>
+            <i class="fab fa-twitter fa-stack-1x" ></i>
+        </a>
+    </span><span class="fa-stack fa-lg">
+        <a href="#">
+            <i class="fas fa-circle fa-stack-2x m-circle"></i>
+            <i class="fab fa-linkedin fa-stack-1x" ></i>
+        </a>
+    </span>
+
+</div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="particles.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script>
+      particlesJS.load('particles-js', 'particles.json', function(){
+        console.log('particles.json loaded...');
+      });
+    </script>
+
+    <script>
+        var email = document.getElementById('email'),
+    button = document.getElementById('button');
+
+function validateEmail(email) {
+    var ex = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
+    return ex.test(email);
+}
+
+
+
+email.addEventListener('keydown', function() {
+  var email = this.value;
+
+  if(validateEmail(email)) {
+    button.classList.add('is-active');
+  }
+});
+
+button.addEventListener('click', function(e){
+  e.preventDefault();
+  this.classList.add('is-done','is-active');
+  
+  setTimeout(function(){ 
+    button.innerHTML = "Thanks For Subscribing"
+  }, 500);
+});
+    </script>
+</body>
+
+</html>
