@@ -220,7 +220,7 @@ padding-bottom: 60px;
 
 #fifthsection {
 
-    background-color: #35455A;
+    background-color: #7a00aa;
 
 }
 
@@ -321,7 +321,7 @@ transition: color 0.3s ease-in-out;
 }
 
 #reviews {
-    background-color: #35455A;
+    background-color: #7a00aa;
 }
 
 .quote-left {
@@ -398,7 +398,7 @@ transition: color 0.3s ease-in-out;
 
 #footer {
 
-    background-color: #35455A;
+    background-color: #7a00aa;
 }
 
 .lowerFooter p {
@@ -490,7 +490,7 @@ fieldset {
     -webkit-transition: background 0.3s ease-in-out;
     -moz-transition: background 0.3s ease-in-out;
     transition: background-color 0.3s ease-in-out;
-    color: #35455A;
+    color: #7a00aa;
 }
 
 .sumbitfield:hover {
@@ -522,19 +522,19 @@ color:#F6D8AE ;
 }
 
 ::-webkit-input-placeholder {
-    color: #35455A;
+    color: #7a00aa;
 }
 
 :-moz-placeholder {
-    color: #35455A;
+    color: #7a00aa;
 }
 
 ::-moz-placeholder {
-    color: #35455A;
+    color: #7a00aa;
 }
 
 :-ms-input-placeholder {
-    color: #35455A;
+    color: #7a00aa;
 }
 
 #companyDescription p {
