@@ -1,4 +1,4 @@
-# Welcome to StackEdit!
+# FrontEndProjects
 
 ## [**Project 1 :** Company/Association Home Page](http://amine.website/frontend/project1)
 
