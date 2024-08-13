@@ -8,7 +8,7 @@
 
 **Features:** Responsive, Diagonal Background, Parallax Scrolling, Scrolling Animation, Carousel(Slideshow)...
 
-**[Live Demo](http://amineaa.com/FrontEndProjects/project1/) - [Source Code](https://github.com/GiN2K/FrontEndProjects/tree/master/project1)**
+**[Live Demo](http://amineaa.site/FrontEndProjects/project1/) - [Source Code](https://github.com/GiN2K/FrontEndProjects/tree/master/project1)**
 
 ## [**Project 2 :** Countdown Landing Page](http://amineaa.com/FrontEndProjects/project2/)
 
@@ -18,7 +18,7 @@
 
 **Features:** Responsive, Particles Background, Animations,  Undepandant Countdown (doesn't depend on computer's/phone date)...
 
-**[Live Demo](http://amineaa.com/FrontEndProjects/project2/) - [Source Code](https://github.com/GiN2K/FrontEndProjects/tree/master/Project2)**
+**[Live Demo](http://amineaa.site/FrontEndProjects/project2/) - [Source Code](https://github.com/GiN2K/FrontEndProjects/tree/master/Project2)**
 
 ## [**Project 3 :** Personal Portfolio](http://amineaa.com/)
 
@@ -28,4 +28,4 @@
 
 **Features:** Responsive
 
-**[Live Demo](http://amineaa.com/) - [Source Code](https://github.com/GiN2K/FrontEndProjects/tree/master/project3)**
+**[Live Demo](http://amineaa.site/) - [Source Code](https://github.com/GiN2K/FrontEndProjects/tree/master/project3)**
